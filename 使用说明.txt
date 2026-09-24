@@ -1,0 +1,7 @@
+双击 黑板图片生成器.html，在浏览器打开。
+输入文字，回车换行，点击下载 PNG 图片。
+背景已内嵌，无需安装、联网或 API。背景文件也单独保留。
+文字使用系统行楷/楷体，效果不同于 AI 自由手写，可自行导入手写字体。
+背景由内置 imagegen 从上张图片去字制作，去字区域纹理有重建；此后每次出图使用同一固定背景。
+背景生成提示词：Remove all five lines of Chinese handwriting; fill with continuous green chalkboard texture; preserve frame, chalk ledge, lighting and worn edges.
+完整 JavaScript 脚本在 HTML 内，可用文本编辑器修改。
